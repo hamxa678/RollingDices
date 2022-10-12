@@ -1,6 +1,6 @@
-# dice
+# Rolling Dices
 
-A new Flutter project.
+A Flutter Application that provide you virtual dices that can be used while playing a ludo game
 
 ## Getting Started
 
