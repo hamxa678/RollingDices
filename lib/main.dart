@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 void main() {
   return runApp(
     const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
           backgroundColor: Colors.teal,
@@ -82,9 +83,9 @@ class _DicePageState extends State<DicePage> {
                   validator: (value) {
                     if (value == null || value.isEmpty) {
                       return 'Please enter a number';
-                    } else if (!(int.parse(value) <= 4 &&
-                        int.parse(value) >= 1)) {
-                      return 'Please enter a number [1-4]';
+                    } else if (!(int.parse(value) == 4 ||
+                        int.parse(value) == 2)) {
+                      return 'Please enter a number either 2 or 4.';
                     }
                     return null;
                   },
@@ -112,7 +113,7 @@ class _DicePageState extends State<DicePage> {
                   validator: (value) {
                     if (value == null || value.isEmpty) {
                       return 'Please enter a number';
-                    } else if (!(int.parse(value) <= 4 &&
+                    } else if (!(int.parse(value) <= 3 &&
                         int.parse(value) >= 1)) {
                       return 'Please enter a number [1-3]';
                     }
