@@ -15,6 +15,6 @@ The Home page:
 
 ![WhatsApp Image 2022-10-12 at 11 55 38 PM](https://user-images.githubusercontent.com/58217684/195425685-0f2f397b-d66d-4f49-af07-8aaeed1cff1e.jpeg)
 
-When player 2 is selected for the game only player 1 and player 4 can play.
+When 2 players are selected for the game only player 1 and player 4 can play and roll the dices. if 4 players are selected than all player 1 2 3 and 4 can randomly generate dice number.
 
 
