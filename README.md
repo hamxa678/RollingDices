@@ -18,3 +18,5 @@ The Home page:
 When 2 players are selected for the game only player 1 and player 4 can play and roll the dices. if 4 players are selected than all player 1 2 3 and 4 can randomly generate dice number.
 
 Number of dices being used for game depend upon the user. number of dices is betweem 1 and 3.
+
+Dices with generate different numbers between 1 and 6.
